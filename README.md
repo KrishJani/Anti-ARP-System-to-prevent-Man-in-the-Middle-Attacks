@@ -1,0 +1,5 @@
+# Anti-ARP-System-to-prevent-Man-in-the-Middle-Attacks
+
+In this project, the method to perform various man-in-the-middle attacks is shown in a controlled environment. These attacks are performed using various virtual machines on a single system. The attacks shown are ARP poisoning, DOS and DNS spoofing. A single point of failure of all the three attacks are identified and a rudimentary python script to detect and prevent these attacks is also created and tested under different conditions and the results are noted. This script mainly revolves around the fact that if a single MAC address corresponds to two different IP entries in the ARP cache, then it can be said that the cache is poisoned. For preventing undesired changes in the ARP cache, all the entries of the cache are changed into static entries, as a result these cannot be automatically changed even if anyone sends unsolicited ARP replies. Keywords – Man-in-the-middle, ARP, spoofing, DOS, DNS.
+
+Find the python file and execute it to run the project. If you are using the system for the first time, it's advised to try it out first on a vertual OS.
